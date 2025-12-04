@@ -18,8 +18,7 @@ else:
     print("PIN:",pin)       
 
 if pin == 12345:
-    if withdrawal <= balance:
-        print("Transaction Approved")
+    print("Approved:")
     else:
         print("Transaction Declined: Insufficient Balance")
 else:
